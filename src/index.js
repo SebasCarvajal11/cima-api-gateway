@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 app.use('/api/v1/core', createProxyMiddleware({ 
     target: process.env.URL_FASE1, 
     changeOrigin: true,
-    pathRewrite: { '^/api/v1/core': '/api' } 
+    pathRewrite: { '^/api/v1/core': '' } 
 }));
 
 // Todo lo que vaya a /api/v1/collab -> Se va a su microservicio (Fase 2)
