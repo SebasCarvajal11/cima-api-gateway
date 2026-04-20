@@ -15,7 +15,7 @@ Se implementa el patrón **Backend-For-Frontend (BFF) / API Gateway** utilizando
 
 ---
 
-## Reglas de Enrutamiento (Routing Contract)
+## Reglas de Enrutamiento
 
 El Frontend debe enviar TODAS sus peticiones a este Gateway. El Gateway se encargará de redirigir el tráfico según el prefijo de la URL:
 
